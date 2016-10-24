@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Team ARCHIS-Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="css/style.css"/>
+   <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Oswald|Poiret+One|Roboto|Yatra+One" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+
+
+  <!----- HEADER START--->
+  <header id="header">
+  <div class="container">
+  <div class="content">
+
+
+  <div class="col-md-3">
+   <a href="index.html"><img id="logo" src="img/Archis_logo.png"/> </a>
+  </div>
+
+  <div class="col-md-9">
+  <nav id="nav">
+
+   <ul>
+     <li><a href="index.html" title="Next Section">Home</a></li>
+        <li><a href="abstract.html" title="Next Section">Abstract</a></li>
+       <li><a href="background.html" title="Next Section" >Intro</a></li>
+     <li><a href="method.html" title="Next Section">Methods</a></li>
+     <li><a  href="results.html" title="Next Section">Results</a></li>
+       <li><a href="teams.html" title="Next Section">Team</a></li>
+     <li><a href="credits.html" title="Next Section">Credits</a></li>
+   </ul>
+
+  </nav>
+  </div>
+  </div>
+  </div>
+  </header>
+  <!--- HEADER END--->
+
+  <div id="backPic">
+
+
+  <div id="backPhoto">
+          <img src="img/capture.png" alt="Project" />
+    </div>
+
+     <div id="backPhotoContent">
+       <h2>PROJECT</h2>
+
+  </div>
+
+  </div>
+
+
+<div class="container" id="backStart">
+
+    <h3 id="headings" style="text-align:center1"> <strong>PROJECT</strong></h3>
+
+
+<div class="col-md-1">
+</div>
+
+<div class="col-md-10">
+  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#idea">IDEA</a></li>
+    <li><a data-toggle="tab" href="#approach">APPROACH</a></li>
+   
+  </ul>
+
+  <div class="tab-content">
+    <div id="idea" class="tab-pane fade in active">
+      
+             <h3 id="headings" style="text-align:center"> <strong>IDEA</strong></h3>
+                
+        <div id="ideaWriteup">
+                <P>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a solution to the immense problems arising due to late diagnosis of potentially fatal diseases, we devised the idea of a nanobot that is capable of detecting such diseases in their infancy.
+     
+                </P>
+                
+                <P>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The DIAGNOBOT is a nanoscopic device that travels the entire length of the body of the patient in an MRI procedure, lasting about 45 minutes, measuring the potential differences of the cells. The DIAGNOBOT is comprised of 3 main components- the two-electrode system, the relay circuit and the DNA origami.
+                    
+                </P>
+                
+                    <P>
+                
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The two-electrode system is made up of a two working electrodes, used to find the potential difference across the cell membrane. [1] The two Ag-AgCl glass electrodes measure the outside cell potential and the inside cell potential respectively - the latter by penetrating through a nano-hole into the cell. [2] [3]
+                </P>
+                
+                
+                <P>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The values measured by the electrode-system is then sent to the relay circuit, where the potential difference is calculated, the noise filtered, and the data amplified and transmitted to the outside of the body using a ZigBee transmitter. The frequency of transmission of the data through this wireless transmitter is 2.4GHz. Effects of these radio waves on the human body is measured with the Specific Absorption Rate (SAR). As per internationally set guidelines, the maximum permissible limit for SAR is 4W/Kg, averaged for the whole body and 0.4W/kg over 1g of tissue. [4][5][6] The whole body averaged SAR for a 2.4GHz RF wave is low enough for the transmission to be safe inside the human body. [7] A ZigBee receiver receives the data external to the body and passes it to the microprocessor that filters through the data, comparing it to predetermined, experimentally verified values, thus highlighting the abnormal values on the LCD screen. These abnormal values correspond to particular diseases.
+                </P>
+                   
+                <P>
+                
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The entire circuit will be coated with a layer of Chitosan, a self-assembling polymer extensively used in the biomedical field. [8] Chitosan is a linear polysaccharide composed of randomly distributed β-(1-4)-linked D-glucosamine (de-acetylated unit) and N-acetyl-D-glucosamine (acetylated unit). [9] The DNA origami is attached to this chitosan layer.
+                </P>
+                
+                <P>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The third part of the nanobot is the DNA origami. DNA origami is increasingly finding its way into the biotechnology field due to its extensive biomedical applications. [10] Among all nanoparticles, biocompatible superparamagnetic iron oxide nanoparticles (SPIONs) with the necessary surface architecture and modifications have attracted a great deal of attention in the biomedical field. The SPIONs due to their magnetic nature, can be used to track and guide the Nanobot in the blood stream by the MRI. They are coated with a uniform layer of polyethyleneimine(PEI). This facilitates the DNA origami to act as a linker between the SPIONs and the relay circuit.[11][12][13] 
+                
+                </P>
+            
+            </div>
+
+   <div class="reference1" id="reference1">
+
+
+
+        <h2> <strong>References</strong><h2>
+
+          <ol type="1" value="1">
+                <li>
+                  <p>
+                    <strong>Lodish, H., Arnold B., Larence S.Z., David B.</strong> and <strong>James D.</strong> (2000). Intracellular Ion Environment and Membrane Electric Potential. Molecular Biology,<strong> 4,</strong> 15.4;
+                  </p>
+                </li>
+
+                <li>
+                  <p><strong>Wood, D.C.</strong> (1969). Electrophysiological Studies of the Protozoan, Stentor Coeruleus. Journal of Neurobiology, <strong>1(4)</strong>, 363-377;
+
+                  </p>
+                </li>
+                <li>
+                  <p><strong>Gray, N.J.</strong> and <strong>Patrick R.U.</strong> (2000). Simple procedure for the fabrication of silver/silver chloride potentiometric electrodes with micrometre and smaller dimensions: application to scanning electron microscopy. The analyst,<strong> 125,</strong> 889-893;
+                  </p>
+                </li>
+                <li>
+                  <p>
+                      IEEE Standard for safety levels with respect to human exposure to radio frequency electromagnetic fields, 3kHz to 300GHz. (1999). IEEE Std C95.1;
+                    </p>
+                </li>
+                <li>
+                  <p>
+                      Limits of human exposure to radiofrequency electromagnetic energy in the frequency range from 3 kHz to 300 GHz. (2015). Health Canada, safety Code 6;
+                  </p>
+                </li>
+
+<li>
+                  <p>   
+                      <strong>Ruiz, Y., Javier B., Evangelos M., Todor S., Carlo F.T.</strong> and <strong>Charalambos M.</strong> (2008). Electromagnetic Fields and radio frequency identification and their effects in our bodies. 12th International Conference on SYSTEMS, Heraklion, Greece, July 22-24, 2008;
+                    </p>
+                </li>
+
+<li>
+                  <p>
+                      <strong>Xu, L.S., Max Q., Teresa H.M.</strong> and <strong>Ren H.L.</strong> (2008). Electromagnetic Radiation from ingested sources in the human intestine at the frequency of 2.4GHz, PIERS Proceedings, Hangzhou, China, 2008, 893-897;
+                    </p>
+                </li>
+
+<li>
+                  <p>
+                       <strong>Mora-Huertas, C.E., Fessi H.</strong> and <strong>Elassari A.</strong> (2010). Polymer-based nanocapsules for drug delivery. International Journal of Pharmaceutics,<strong> 385, </strong>113-142;
+                    </p>
+                </li>
+               
+
+<li>
+                  <p>
+                     <strong>Majedi F.S., Mohammad M.H., Shahriar H.E., Mohammad A.S., Jules J.V., Erfan D., Arnaud B.</strong> and <strong>Philippe R. </strong>(2012). Microfluidic assisted self-assembly of chitosan based nanoparticles as drug delivery agents. Lab Chip, <strong>13,</strong> 204-207;
+                    </p>
+                </li>
+
+<li>
+                  <p><strong>Linko, V., Ora A., </strong>and <strong>Kostiainen M.A.</strong> (2015). DNA nanostructures as smart drug-delivery vehicles and molecular devices. Trends in Biotechnology, <strong>33(10),</strong> 586-594;
+                    </p>
+                </li>
+               
+              <li>
+                  <p>
+                       <strong>Mahmoudi, M., Shilpa S., Beng W., Sophie L. </strong>and <strong>Tapas S.</strong> (2010) Superparamagnetic iron oxide nanoparticles (SPIONs): Development, Surface Modification and applications in Chemotherapy. Advanced Drug Delivery Reviews, <strong>63</strong>, 24-46;
+                    </p>
+                </li>
+
+<li>
+                  <p>
+                      <strong>Wortmann, T., Christian D., Christian G. </strong>and<strong> Sergej F.</strong> (2012). IEEE/RSJ International Conference on Intelligent robots and systems (IROS) 2012, 2565-2570;
+                    </p>
+                </li>
+
+<li>
+                  <p>
+                      <strong>Wang, X., Linzhou Z., Yongjie M., Xu L.</strong> and <strong>Hongchen G.</strong> (2009). Control of aggregate size of polyethyleneimine-coated magnetic nanoparticles for magnetofection. Nano Research, <strong>2,</strong> 365-372;
+                    </p>
+                </li>
+              
+              
+
+            </ol>
+
+
+
+    </div>
+
+
+
+    </div>
+
+
+
+    <div id="approach" class="tab-pane fade">
+
+            <h3 id="headings" style="text-align:center"> <strong>APPROACH</strong></h3>
+
+            <h3 id="sub">Design of Circuit</h3>
+        
+                <p>
+        
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The relay circuit was first designed and simulated using Multisim and then tested at a macroscopic level to completely analyse the functionality. The two glass electrodes are dipped in the two solutions of extracellular fluid (ECF) and intracellular fluid (ICF). The readings from the electrodes are then filtered and amplified in the two separate sections of the circuit rigged with IC 741, IC LF411 and IC TC7660. The IC TC7660 and IC LF411 combine to perform the function of converting negative input signals to positive output signals and calibrate the values to a range of 0-5V, while IC 741 is used to subsequently amplify the input signals. 
+                </p>
+        
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The calibrated and amplified signals are then fed to the built-in analog-to-digital converter in the PIC microcontroller. The microcontroller analyses the two input signals and displays both the individual readings and the difference between the two, on the LCD interfaced with it. The potential difference values are obtained on to a computer through serial port communication via ZIgbee module. The potential difference values in the range 50-60mV correspond to that of a normal cell, while any other values correspond to the diseased state of most of the cells in the human body.
+                </p>
+        <br>
+        
+            <h3 id="sub">Assembly of DNA origami structure</h3>
+        
+        <p>
+        
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The origami was first designed using caDNAno and comprised of six helices arranged in a honeycomb structure. The DNA origami structure was self-assembled from 7249-bases-long DNA single-stranded scaffold molecules and fifteen 16—51 bases long single-stranded DNA staples. Single-stranded M13Mp18 phage DNA was used as the scaffold strand.
+        </p>
+              
+        
+        <p>
+        
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The structural integrity of the target DNA object was confirmed on the ensemble level using gel-electrophoretic mobility analysis and on the single-particle level using direct imaging by scanning electron microscopy.
+        </p>
+        
+        <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The electrophoretic mobility of the target species indicated correct folding with high yield. The images obtained from single particles were consistent with the expected shape. Target DNA objects were separated from non-integrated DNA oligonucleotides using a depletion-based purification method. Polyethylene glycol-8000 was used as the depletion agent.
+        
+        </p>
+        <br>
+        
+        <h3 id="sub">Synthesis and coating of SPIONs</h3>
+        
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biologically compatible superparamagnetic iron oxide nanoparticles with the necessary surface architecture and modifications have increasingly attracted a great deal of attention in the biomedical field. [1] In our DIAGNOBOT, the SPIONs are used for tracking and guiding the nanobot inside the body using an MRI scanner and were synthesized using co-precipitation methods in an aqueous solution using iron (III) salts as precursors. The SPIONs were then coated with a 10% aqueous solution of polyethyleneimmine (PEI) prepared in a nitrogen environment. The PEI helps in binding the SPIONs to the origami structures.
+        </p>
+        <br>
+        
+        <h3 id="sub">Binding studies of Origami and SPIONs</h3>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preliminary studies of attachment of SPIONs to DNA origami was carried out using agarose gel electrophoresis. Scanning electron microscopy (SEM) and Fourier transform infrared spectroscopy (FTIR) were the two techniques used to further analyse the effectiveness of binding of PEI-coated-SPIONs to the DNA origami.
+        </p>
+        <br>
+        
+        <h3 id="sub">Detection of SPIONs using MRI</h3>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We use MRI for the navigation of our DIAGNOBOT inside the body. To establish this, we introduced the PEI-coated-SPIONs into chick embryonic tissue.
+        </p>
+        <br>
+        
+        <h3 id="sub">Simulation</h3>
+        
+        <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To better understand the behaviour of various aspects concerned with the design and functioning of our DIAGNOBOT at particular conditions we have used the powerful physics engine Unity3D.
+        </p>
+        
+         <h4 id="sub">Coating of chitosan on the PCB [1]:</h4>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chitosan is a self-linking and biocompatible polysaccharide.It acts as an ideal platform on the PCB allowing DNA origami to bind to it. Chitosan easily tends to adsorb onto a layer of organic solvent. This is shown via simulation.
+            Parameters considered include – viscosity of the medium and the attractive forces related to adsorption. 
+        </p>
+        
+        <h4 id="sub">Attachment of DNA-linked SPIONS to the chitosan-coated PCB [2]:</h4>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DNA origami, carrying a net negative charge, serves as an excellent link between the positively charged PEI- coated SPIONS and the chitosan-coated PCB. This attachment has been demonstrated, the parameters considered include- electrostatic forces between the charges and thermal fluctuations. 
+        </p>
+        
+        
+        <h4 id="sub">Behaviour of nanobot in blood:</h4>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blood is a non-Newtonian fluid with viscoelastic properties [3] .Blood flow through blood vessels in the human body can be modelled using Navier Stoke’s equation [4].
+        </p>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Location considered for the simulation is the blood capillaries because of their streamlined flow, which renders a Reynold’s Number of 0.001 [4]. However, blood plasma has Newtonian fluid properties, similar to that of water [4]. 
+        </p>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameters such as the viscosity, fluid velocity, properties of a stream lined flow and external magnetic force induced due to MRI have been considered [6]  for demonstrating the travel of the nanobot in the blood [5] .
+        </p>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The elastic properties (of blood) due to cellular components such as RBC and the thermal fluctuations have been neglected in this simulation model.
+        </p>
+
+        
+        <h4 id="sub">Behaviour of nanobot in interstitial fluid:</h4>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interstitial fluid is a vital link between the cells present inside the tissue and in the blood stream.  The origin of interstitial fluid is blood plasma; thus it has a similar composition to that of blood plasma [7].
+        </p>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balance between hydrostatic pressure and osmotic pressure induces a net water potential that controls the amount of interstitial fluid present at a given point of time. The simulation model is conceptualised in a scenario where the net flux of fluid is towards the tissue.
+        </p>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameters considered include hydrostatic pressure of blood, osmotic pressure and viscosity of the interstitial fluid (which is similar to that of the blood plasma) and the external magnetic force induced due to MRI [6].
+        </p>
+
+        
+       <h4 id="sub">Piercing of cell membrane by the electrode:</h4>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The animal cell membrane is semi-permeable and double layered with hydrophobic tails and hydrophilic heads. The composition of the bilayer is mainly phospholipids, carbohydrates and proteins.  It separates the intracellular components from the extracellular environment [8].
+        </p> 
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parameters factored in are hydrophilic forces of attraction between the phospholipid heads, viscous forces of the intracellular fluid (ICF) and the extra cellular fluid (ECF), length and diameter of the piercing electrode and the external magnetic force induced due to MRI [6].
+        </p> 
+       
+        
+          <div class="reference2" id="reference1">
+
+        <h2> <strong>References</strong><h2>
+
+          <ol type="1" value="1">
+                <li>
+                  <p>
+                    <strong>Majedi, F.S. Mohammad Mahdi Hasani-Sadrabadi, Shahriar Hojjati Emami, Mohammad Ali Shokrgozar, Jules John VanDersarl,   Erfan Dashtimoghadam,  Arnaud Bertsch</strong> and <strong>Philippe Renaud</strong> (2013). Microfluidic assisted self-assembly of chitosan based nanoparticles as drug delivery agents. Lab on a Chip, <strong>13(2),</strong> 204-207; 
+                  </p>
+                </li>
+
+                <li>
+                  <p><strong>Mao. S, Shirui, Wei Sun,</strong> and <strong>Thomas Kissel </strong>(2010). Chitosan-based formulations for delivery of DNA and siRNA. Advanced drug delivery reviews <strong>62(1)</strong>: 12-27;
+
+                  </p>
+                </li>
+                <li>
+                  <p><strong>Thurston, G. B.</strong> (1972).  Viscoelasticity of human blood. Biophysical journal, <strong>12(9),</strong> 1205;
+                  </p>
+                </li>
+                <li>
+                  <p>
+                      <strong>Fullstone, G., Jonathan W., Mike H.,</strong> and <strong>Giuseppe B.</strong> (2015). Modelling the transport of nanoparticles under blood flow using an agent-based approach. Scientific reports, <strong>5;</strong>
+                    </p>
+                </li>
+                <li>
+                  <p>
+                      <strong>Cavalcanti, Adriano, Bijan Shirinzadeh, Robert A. Freitas Jr,</strong> and <strong>Tad Hogg</strong> (2007). Nanorobot architecture for medical target identification." Nanotechnology <strong>19(1)</strong> : 015103;
+                  </p>
+                </li>
+
+              <li>
+                  <p>   
+                      <strong>Sun, C. Jerry S.H. Leeb,</strong> and <strong>Miqin Zhanga. </strong>(2008). Magnetic nanoparticles in MR imaging and drug delivery. Advanced drug delivery reviews, <strong>60(11),</strong> 1252-1265;
+                    </p>
+                </li>
+
+              <li>
+                  <p>
+                      <strong>Wiig, H.</strong> and <strong>Melody. A.S.</strong> (2012).Interstitial fluid and lymph formation and transport: physiological regulation and roles in inflammation and cancer. Physiological reviews, <strong>92(3),</strong> 1005-1060;
+                    </p>
+                </li>
+
+              <li>
+                  <p>
+                       <strong>Singer, S.J.</strong> and <strong>Garth L.N.</strong> (1972).The fluid mosaic model of the structure of cell membranes. Membranes and Viruses in Immunopathology; Day, SB, Good, RA, Eds, 7-47;
+                    </p>
+                </li> 
+
+            </ol>
+
+
+
+    </div>
+        
+        
+        
+        
+
+    </div>
+    
+    
+  </div>
+
+
+</div>
+
+
+<div class="col-md-1">
+
+</div>
+</div>
+
+        
+        
+<!--  FOOTER BEGIN -->
+
+  <footer id="elseFooter" class="footerSection">
+      
+      <div class="container">
+         
+                   
+                  <span align="center"><p> </p><h5>Copyright <i class="fa fa-copyright"></i> 2016 ARCHIS. All rights reserved.</h5> </span>
+                    <h5 style="text-align:center">Email: bmsce.biomod2016@gmail.com</h5>
+             
+            
+      
+      </div>
+
+
+  </footer>
+
+<!--  FOOTER END -->
+
+
+        
+      
+
+
+</body>
+</html>

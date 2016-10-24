@@ -1,0 +1,327 @@
+@import url('http://fonts.googleapis.com/css?family=Paytone+One');
+
+/*
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html { overflow-y: scroll; }
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+br { display: block; line-height: 1.2em; }
+
+
+
+input, textarea {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*----- Protocol 1 -----*/
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/*----- Protocol 1 END -----*/
+
+
+/*----- Protocol 2 -----*/
+blockquote1, q { quotes: none; }
+blockquote1:before, blockquote1:after, q:before, q:after { content: ''; content: none; }
+/*----- Protocol 2 END -----*/
+
+/*----- Protocol 3 -----*/
+blockquote2, q { quotes: none; }
+blockquote2:before, blockquote2:after, q:before, q:after { content: ''; content: none; }
+/*----- Protocol 3 END -----*/
+
+/*----- Protocol 4 -----*/
+blockquote3, q { quotes: none; }
+blockquote3:before, blockquote3:after, q:before, q:after { content: ''; content: none; }
+/*----- Protocol 4 END -----*/
+
+
+/*----- Protocol 5 -----*/
+blockquote4, q { quotes: none; }
+blockquote4:before, blockquote4:after, q:before, q:after { content: ''; content: none; }
+/*----- Protocol 5 END -----*/
+
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%; }
+
+
+
+/** page structure **/
+#wrapper {
+    position:relative;
+    top:35em;
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#photo {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#photo img {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  border: 5px solid #fff;
+  box-shadow: 2px 0 7px #aaa;
+}
+
+/*---- Protocol 1 ----*/
+.bigtext {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+
+/*----- Protocol 2 ----*/
+.bigtext1 {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+
+/*----- Protocol 3 ----*/
+.bigtext2 {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+
+/*----- Protocol 4 ----*/
+.bigtext3 {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+
+
+/*----- Protocol 5 ----*/
+.bigtext4 {
+  display: block;
+  overflow: hidden;
+  color: #787878;
+}
+
+
+
+.expand, .contract {
+    
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  color: #555;
+}
+.expand:hover, .contract:hover {
+  color: #121212;
+}
+
+.hide {
+  display: none;
+}
+
+/*-----OPENING BACKGROUND ------*/
+
+#backPhoto img
+{
+	position:absolute;
+	width:100%;
+	height:70%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+#backPhotoContent {
+	position: absolute;
+	width:100%;
+	min-height:70%;
+	z-index:1000;
+	background:rgba(0,0,1,.6);
+
+}
+
+#backPhotoContent h2{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size:70px;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#fff;
+	padding-top:8%;
+	margin-bottom:10px;
+}
+
+/*-------OPENING BACKGROUND END --------*/
+
+
+
+#headings{
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+ 	padding-block-start: 1rem;
+	border-bottom: 2px solid lightgray;
+	padding-bottom:1em;
+    padding-top: 1em;
+    font-size: 22px;
+}
+
+
+/*-------- Protocol Text --------*/
+
+    
+
+#protocols p{
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+#protocols h3
+{
+		font-family: 'Yatra One', cursive;
+		text-align:center;
+}
+
+#subHead
+{
+	font-family: 'Yatra One', cursive;
+	text-align:left;
+}
+
+#protocolHead
+{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    color:#121212;
+}
+
+
+
+
+/*------Protocol Text End -------*/
+
+
+
+
+/*-----EQUIPMENTS-------*/
+
+
+.equipments
+{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid lightgray;
+  
+}
+
+
+.equipments h3
+{
+    font-family: 'Yatra One', cursive;
+    text-align:center;
+    font-size: 25px;
+}
+
+.equipments p
+{
+    font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+    font-size: 20px;
+}
+
+.equipments img
+{
+    text-align: center;
+    box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+    
+}
+
+.equipments li {
+    
+    font-family: 'Yatra One', cursive;
+    font-size: 15px;
+}
+
+
+
+
+/*-----EQUIPMENTS END-----*/
+
+
+/*----- MATERIALS -----*/
+
+#materials p
+{
+   font-family: 'Yatra One', cursive;
+    font-size: 20px;
+}
+
+
+#matStart
+{
+    padding-top: 20px;
+}
+
+/*------ MATERIALS -----*/
+
+
+/*----- Nav Tabs -----*/
+.nav-tabs a
+{
+    font-family: 'Yatra One', cursive;
+    color:#33338b;
+    
+}
+
+.nav-tabs a:active
+{
+    font-family: 'Yatra One', cursive;
+    color:#33338b;
+    
+}
+
+/*----- Nav Tabs------*/

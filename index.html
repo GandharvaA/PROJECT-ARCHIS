@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Team ARCHIS</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+     <script type="text/javascript" src="js/noframework.waypoints.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+       <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Oswald|Poiret+One|Roboto|Yatra+One" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+	   <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script>
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV -->
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+$(document).ready(function(){
+		$(window).scroll(function(){
+
+
+		});
+
+
+});
+
+
+</script>
+
+
+ </head>
+
+
+   <body id="start">
+
+   <!----- HEADER START--->
+   <header id="header">
+   <div class="container">
+   <div class="content">
+
+
+   <div class="col-md-3">
+    <a href="#start"><img id="logo" src="img/Archis_logo.png"/> </a>
+   </div>
+
+   <div class="col-md-9">
+   <nav id="nav">
+
+   	<ul>
+        <li><a href="abstract.html" title="Next Section" >Abstract</a></li>
+   		<li><a href="background.html" title="Next Section" >Intro</a></li>
+   		<li><a href="project.html" title="Next Section">Project</a></li>
+   		<li><a href="method.html" title="Next Section">Methods</a></li>
+   		<li><a  href="results.html" title="Next Section">Results</a></li>
+   		<li><a href="teams.html" title="Next Section">Team</a></li>
+   		<li><a href="credits.html" title="Next Section">Credits</a></li>
+   	</ul>
+
+   </nav>
+   </div>
+   </div>
+   </div>
+   </header>
+   <!----- HEADER END--->
+
+   <!----- SLIDES START --->
+
+   <div id="videoSection">
+
+   	<div class="slide0">
+   	<video  id="introVideo" preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/webbg.mp4" type="video/mp4" />
+   	</video>
+
+  </div>
+
+
+   	<div class="videoContent">
+    <h2>Archis</h2> <p><i>presents</i></p>
+   	<h1> DIAGNOBOT </h1>
+   	<p> <b>Saving the world. One life at a time </b></p>
+   	</div>
+   
+       <div class="button">
+        <a href="abstract.html#mainVideo" target="_blank"> 
+        <h2>
+             VIDEO
+        
+        </h2> 
+           
+           </a>
+       </div>
+           
+           
+<!--
+   <a href="">
+     	<div class="videoLink">
+
+       <div class="blue-rectangle">
+            <p>Click here to watch the video</p>
+        </div>
+
+       </div>
+  </a>
+-->
+</div>
+
+
+    <div id="slide1">
+  		<div class="content">
+        <div class="quotes_container">
+    <h2 class="quotes">
+        
+           "Our superheroes are here to save the day – this time, with their best weapon yet; the <strong>DIAGNOBOT</strong>."
+            
+            </h2>
+            
+            <h3>
+                    
+            </h3>
+
+</div>
+
+  		</div>
+     </div>
+
+
+    </div>
+
+<!-- Electro Begin -->
+      <div id="slide2">
+    		<div class="content" >
+                <!--<div class="quotes_container">
+    		    <h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
+    		  <img src="img/dr-seuss.png" align="left"/> <h4 class="author_name_gray">Dr. Seuss </h4>
+    		</div> -->
+    		</div>
+        </div>
+
+
+        <div id="slide3">
+     		<div class="content">
+     			   <div class="quotes_container">
+     		       <h2 class="quotes">
+        
+            ELECTRO: BIOELECTRIC CURRENT
+            
+            </h2>
+            
+            <h3>
+                    "While he might be a villain in the Marvel universe, his power over (bio)electricity was put to good use when constructing the electrodes and the relay circuit."
+            </h3>
+     		    </div>
+     		</div>
+         </div>
+
+<!-- Electro END -->
+
+
+<!-- Apocalypse Begin -->
+         <div id="slide4">
+         <div class="content">
+           <!--
+              <div class="quotes_container">
+                <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+               <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+             </div>
+           -->
+         </div>
+          </div>
+
+          <div id="slide5">
+        		<div class="content" >
+                    <div class="quotes_container">
+        		    <h2 class="quotes">
+        
+            APOCALYPSE: BIOMANIPULATION
+            
+            </h2>
+            
+            <h3>
+                    "This highly intimidating mutant with his ability to control and manipulate biological matter has contributed to the assembling of the DNA origami and the chitosan layer."
+            </h3>
+
+        		</div>
+        		</div>
+            </div>
+<!-- Apocalypse END -->
+
+<!-- Wolverine Begin -->
+
+            <div id="slide6">
+            <div class="content">
+              <!--
+                 <div class="quotes_container">
+                   <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+                  <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+                </div>
+              -->
+            </div>
+             </div>
+
+
+             <div id="slide7">
+           		<div class="content" >
+                       <div class="quotes_container">
+           		   <h2 class="quotes">
+        
+            WOLVERINE: PENETRATION AND BIOMAGNETISM
+            
+            </h2>
+            
+            <h3>
+                    "One amongst our most favourite superheroes, Wolverine is used as a biomagnet and his stylish adamantium claws for penetration."
+            </h3>
+
+
+           		</div>
+           		</div>
+               </div>
+
+<!-- Wolverine END -->
+
+<!-- QuickSilver Begin -->
+
+               <div id="slide8">
+               <div class="content">
+                 <!--
+                    <div class="quotes_container">
+                      <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+                     <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+                   </div>
+                 -->
+               </div>
+                </div>
+
+
+                <div id="slide9">
+              		<div class="content" >
+                          <div class="quotes_container">
+              		    <h2 class="quotes">
+        
+            QUICKSILVER: SUPERSPEED
+            
+            </h2>
+            
+            <h3>
+                    "Combining speed and style, this laid-back superhero’s powers are synonymous to quick and real-time detection."
+            </h3>
+
+              		</div>
+              		</div>
+                  </div>
+
+<!-- QuickSilver END -->
+
+<!-- Antman Begin -->
+
+                  <div id="slide10">
+                  <div class="content">
+                    <!--
+                       <div class="quotes_container">
+                         <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+                        <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+                      </div>
+                    -->
+                  </div>
+                   </div>
+
+
+                   <div id="slide11">
+                    <div class="content" >
+                             <div class="quotes_container">
+              		    <h2 class="quotes">
+        
+            ANT-MAN: NANOSCOPIC
+            
+            </h2>
+            
+            <h3>
+                    "His name says it all! This avenger best shows his ability when sized down to a nano-level, just like our nanobot!"
+            </h3>
+
+
+                    </div>
+                    </div>
+                     </div>
+
+<!-- Antman END -->
+
+<!-- Magneto Begin -->
+                     <div id="slide12">
+                     <div class="content">
+                       <!--
+                          <div class="quotes_container">
+                            <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+                           <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+                         </div>
+                       -->
+                     </div>
+                      </div>
+
+
+                      <div id="slide13">
+                        <div class="content" >
+                                <div class="quotes_container">
+                            <h2 class="quotes">
+        
+            MAGNETO: MAGNETO-KINESIS
+            
+            </h2>
+            
+            <h3>
+                    "His control over magnetic particles is indisputable. He is analogous to the MRI machine that tracks and controls our nanobot!"
+            </h3>
+
+                        </div>
+                        </div>
+                        </div>
+<!-- Magneto END -->
+
+
+<!-- Xavier Begin -->
+
+<div id="slide14">
+<div class="content">
+  <!--
+     <div class="quotes_container">
+       <h3 class="quotes">“I truly believe that if we keep telling the Christmas story, singing the Christmas songs, and living the Christmas spirit, we can bring joy and happiness and peace to this world.”  </h3>
+      <img src="img/norman.png" align="left"/> <h4 class="author_name_white">Norman Vincent Peale </h4>
+    </div>
+  -->
+</div>
+ </div>
+
+
+ <div id="slide15">
+   <div class="content" >
+           <div class="quotes_container">
+       <h2 class="quotes">
+        
+            PROFESSOR X: TELEPATHY
+            
+            </h2>
+            
+            <h3>
+                    "Professor X has blown our minds with his telepathic abilities, making his power the perfect fit for data transmission from the nanobot to the outside of the body."
+            </h3>
+
+   </div>
+   </div>
+   </div>
+
+
+
+<!-- Xavier END -->
+
+<div id="slide16">
+ 
+          
+      
+              <img id="bgCombined" src="img/bgCombined.png" alt="GRAND COMBINATION OF ALL SUPER HEROES"/>
+              
+  
+  
+  </div>
+
+<!--  FOOTER BEGIN -->
+
+  <footer id="headerFooter" class="footerSection">
+      
+      <div class="container">
+          
+        
+                  <span align="center"><p> </p><h5>Copyright <i class="fa fa-copyright"></i> 2016 ARCHIS. All rights reserved.</h5> </span>
+                    <h5 style="text-align:center">Email: bmsce.biomod2016@gmail.com</h5>
+      
+      
+      </div>
+
+
+  </footer>
+
+<!--  FOOTER END -->
+
+</body>
+
+
+</html>

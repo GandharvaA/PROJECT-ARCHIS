@@ -1,0 +1,1369 @@
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 {
+    font-family:"Arvo";
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"Arvo";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family: Oswald;
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   margin: 5px 0;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width:100%; height:100%;}
+
+.clear { clear: both; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Wellfleet"; text-decoration: none; margin: 7px 11px; }
+
+a.lpanel:hover{ color: #fff; }
+a.rpanel:hover{ color: #fff; }
+
+
+/*= HEADER & NAVIGATION
+--------------------------------------------------------*/
+
+#header {
+	z-index:2000;
+	width: 100%;
+	background: url('../img/header-bg.png');
+	height: 80px;
+	position: fixed;
+	margin-top: 10px;
+}
+
+#nav {
+		width: 100%;
+		float: right;
+		margin-top: 20px;
+	}
+
+#logo{
+			text-decoration: none;
+			float:left;
+			width:20rem;
+			height:7rem;
+			align:center;
+			padding-top:0.1rem;
+		}
+
+#nav ul{
+	align:left;
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+}
+
+#nav li{
+	margin-top: 9px;
+	float: left;
+	padding-left: 15px;
+}
+
+#nav li a { color: #fff;
+		opacity:0.6;
+		 font-size: 16px;
+		  text-decoration: none;
+			font-family: 'Yatra One',cursive;
+		text-transform:uppercase;
+	 }
+#nav li a.active { color: #fff;
+		opacity:1;
+		border-bottom: 2px solid #fff; }
+
+#nav li a:hover {
+			color: #fff;
+			opacity:1;
+		 }
+
+
+
+/*= QUOTES AND SOME ELEMENTS
+--------------------------------------------------------*/
+.quotes {
+	font-family: 'Jaldi', sans-serif;
+ /*font-family: 'Goudy Bookletter 1911', serif;*/
+    font-family: 'Yatra One', cursive;
+	text-align:center;
+   font-weight: normal;
+   font-size: 30px;
+  text-align: center;
+    vertical-align: middle
+}
+
+ .author_name_white { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }
+ .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }
+ .quotes_container { width: 80%; margin: 0 auto; }
+
+.quotes_container h3
+{
+    /*font-family: 'Jaldi', sans-serif;*/
+ font-family: 'Goudy Bookletter 1911', serif;
+    
+}
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#videoSection{
+	width:100%;
+	height:100%;
+	min-width: auto;
+	min-height: auto;
+}
+
+.slide0{
+	position:fixed;
+	z-index:-1000;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	top:0;
+	left:0;
+
+}
+
+/*//// VIDEO ////*/
+
+#introVideo {
+	position:absolute;
+	top:0;
+	left:0;
+ min-width:100%;
+ min-height:100%;
+ width:auto;
+ height:auto;
+/*  background:url('../img/dna-astra.png') no-repeat fixed;
+ background-size:cover; */
+}
+
+.videoContent {
+	position: absolute;
+	width:100%;
+	min-height:100%;
+	z-index:1000;
+	background:rgba(0,0,1,.7);
+
+}
+
+.videoContent h2{
+
+  color:rgba(255, 255, 255, 0.5);
+	padding-bottom: 0%;
+	font-family:'Yatra One', cursive;
+	text-align:center;
+	padding-top:10%;
+	right:2rem;
+
+
+}
+.videoContent h1
+{
+
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size:65px;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#fff;
+	padding-top:8%;
+	margin-bottom:10px;
+
+}
+
+
+.videoContent p{
+    
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:3px;
+	color:#aaa;
+}
+
+/*---- VIDEO END -----*/
+
+
+#slide1, #slide2{ width: 100%; }
+
+
+#slide1{
+
+  position: relative;
+	background-color: #fff;
+	color: #333333;
+	height: 150px;
+	top:48em;
+	/*margin: 0 auto;*/
+	padding: 30px 0 40px 0;
+
+}
+
+#slide2{
+	position: relative;
+	background:url('../img/gif/ELECTRO.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+
+#slide3{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+#slide4{
+	position: relative;
+	background:url('../img/gif/apocalypse.gif') no-repeat fixed;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+
+#slide5{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+
+#slide6{
+	position: relative;
+	background:url('../img/gif/wolverine.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+#slide7{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+#slide8{
+	position: relative;
+	background:url('../img/gif/quick_silver.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+#slide9{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+#slide10{
+	position: relative;
+	background:url('../img/gif/Antman.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+#slide11{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+#slide12{
+	position: relative;
+	background:url('../img/gif/Magneto.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+#slide13{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+#slide14{
+	position: relative;
+	background:url('../img/gif/Xavier.gif') no-repeat fixed;
+	background-repeat: repeat;
+	color: #fff;
+	height: 500px;
+	margin: 0;
+	padding: 100px 0 160px 0;
+	background-size: cover;
+	top:48em;
+}
+
+#slide15{
+	background-color: #fff;
+	color: #333333;
+	height: 200px;
+	padding: 20px 0 20px 0;
+	position: relative;
+	top:48em;
+}
+
+
+#slide16{
+	
+	color:#ffffff;
+    background-size: cover;
+	height: 400px;
+	
+	position: relative;
+	top:48em;
+}
+
+#bgCombined 
+{
+  height: 400px;
+    width:100%;
+}
+
+
+
+/*-------- Teams Begin--------------*/
+
+
+#teamPhoto img
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+#teamPhotoContent {
+	position: absolute;
+	width:100%;
+	min-height:100%;
+	z-index:1000;
+	background:rgba(0,0,1,.5);
+
+}
+
+#teamPhotoContent h2{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size:60px;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#fff;
+	padding-top:8%;
+	margin-bottom:10px;
+}
+
+#teamPhotoContent p{
+    font-family: 'Jaldi', sans-serif;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:3px;
+	color:#aaa;
+}
+
+#teamStart{
+	position: relative;
+	top:50em;
+	padding-bottom:10.5em;
+}
+
+#teamImageStart1{
+	position:relative;
+	top:2.1em;
+}
+
+#teamImageStart2{
+	left:1.7em;;
+	position:relative;
+	top:6rem;
+}
+
+
+
+#headings{
+	font-family: 'Poiret One', cursive;
+	text-align:center;
+ 	padding-block-start: 1rem;
+	border-bottom: 2px solid lightgray;
+	padding-bottom:1em;
+    padding-top: 1em;
+    font-size: 22px;
+}
+
+.row-centered{
+	text-align: center;
+	display: inline-block;
+	}
+
+#mentor
+{
+	padding-top: 5%;
+	padding-bottom:5%;
+	position:relative;
+	top:50em;
+	background:rgba(0,0,1,.2);
+}
+#mentor >div h2
+{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+}
+
+#mentorWriteup{
+	margin-top: 20px;
+}
+
+
+#mentorWriteup p{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size: 16px;
+}
+
+.info-back h3{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+}
+.info-back p{
+
+	font-family:'Poiret One', cursive;
+
+}
+
+
+#teacher
+{
+    position:relative;
+    top:50em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    left:4em;
+}
+
+#teacher >div h2
+{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+    padding-right: 5em;
+}
+
+
+#teacherItem h3
+{
+    
+	font-family: 'Yatra One', cursive;
+    font-size:15px;
+}
+
+.icons{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: white;
+	text-align:center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 15px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+
+}
+
+.icons a:hover
+{
+	color: white;
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-o-transform:scale(1.2);
+}
+
+
+.shift1
+{
+    position:relative;
+    left:6.25em;
+}
+
+.shift2
+{
+    position:relative;
+    right:6.25em;
+}
+
+
+
+
+/*---------Teams End-------------*/
+
+
+
+/* -------- Acknowledgements --------- */
+
+
+#ackPhoto img
+{
+	position:absolute;
+	width:100%;
+	height:80%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+#ackPhotoContent {
+	position: absolute;
+	width:100%;
+	min-height:80%;
+	z-index:1000;
+	background:rgba(0,0,1,.7);
+
+}
+
+#ackPhotoContent h2{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size:70px;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#fff;
+	padding-top:8%;
+	margin-bottom:10px;
+}
+
+#ackStart{
+	position: relative;
+	top:38em;
+	padding-bottom:8em;
+}
+
+
+#officials h2{
+	font-family: 'Yatra One', cursive;
+	text-align: center;
+	padding-bottom: 4rem;
+	color:#33383b;
+
+}
+
+#teqip img{
+	height: 300px;
+	-webkit-transform:scale(0.9); /*Webkit 0.7 times the original Image size*/
+	-moz-transform:scale(0.9); /*Mozilla 0.7 times the original Image size*/
+	-o-transform:scale(0.9); /*Opera 0.7 times the original Image size*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla Animation duration*/
+	-o-transition-duration: 0.5s; /*Opera Animation duration*/
+	opacity: 0.9;
+	margin: 0 10px 5px 0;
+
+
+}
+
+#bmsce img{
+	height: 350px;
+	-webkit-transform:scale(0.9); /*Webkit 0.7 times the original Image size*/
+	-moz-transform:scale(0.9); /*Mozilla 0.7 times the original Image size*/
+	-o-transform:scale(0.9); /*Opera 0.7 times the original Image size*/
+	-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+	-moz-transition-duration: 0.5s; /*Mozilla Animation duration*/
+	-o-transition-duration: 0.5s; /*Opera Animation duration*/
+	opacity: 0.9;
+	margin: 0 10px 5px 0;
+
+}
+
+#bmsce img:hover{
+	-webkit-transform:scale(1.1); /*Webkit: 0.5 times the original Image size*/
+	-moz-transform:scale(1.1); /*Mozilla 0.5 times the original Image size*/
+	-o-transform:scale(1.1); /*Opera 0.5 times the original Image size*/
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+
+}
+
+#teqip img:hover {
+	-webkit-transform:scale(1.1); /*Webkit: 0.5 times the original Image size*/
+	-moz-transform:scale(1.1); /*Mozilla 0.5 times the original Image size*/
+	-o-transform:scale(1.1); /*Opera 0.5 times the original Image size*/
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+
+
+}
+
+
+#web
+{
+	padding-left:6em;
+	position:relative;
+	align-items: center;
+  justify-content: center;
+
+}
+
+#bro
+{
+	padding-left:6em;
+	position:relative;
+	align-items: center;
+  justify-content: center;
+}
+#webdesigner
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	position:relative;
+	top:30em;
+	background:rgba(0,0,1,.2);
+
+
+}
+
+#webdesigner >div h2
+{
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+	text-align: center;
+	padding-bottom: 4rem;
+
+}
+
+#heartThanks
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	position:relative;
+	top:30em;
+
+}
+
+
+#heartThanks >div h2
+{
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+	text-align: center;
+	padding-bottom: 4rem;
+
+}
+
+#hTmention >div
+{
+	align-items: center;
+  justify-content: center;
+}
+
+#htmentionContent p{
+
+	font-family: 'Yatra One', cursive;
+	color:rgba(51,56,59, 0.5);
+	font-size: 20px;
+
+}
+
+.finalQuote
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position:relative;
+	top:30em;
+	background:rgba(0,0,1,.4);
+}
+
+#finalQuoteContent h2
+{
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+}
+
+#finalQuoteContent p
+{
+	font-size:20px;
+	text-align:center;
+	font-family: 'Yatra One', cursive;
+	color:#ffffff;
+}
+
+
+/* -------- Acknowledgements END --------- */
+
+
+/*--------- Background ---------- */
+
+
+#backPhoto img
+{
+	position:absolute;
+	width:100%;
+	height:70%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+#backPhotoContent {
+	position: absolute;
+	width:100%;
+	min-height:70%;
+	z-index:1000;
+	background:rgba(0,0,1,.6);
+
+}
+
+#backPhotoContent h2{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	font-size:70px;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#fff;
+	padding-top:8%;
+	margin-bottom:10px;
+}
+
+#backStart{
+	position: relative;
+	top:35em;
+}
+
+#backPhotoContent p
+{
+	padding-top: 30px;
+	font-family: 'Jaldi', sans-serif;
+	text-align:right;
+	font-size:23px;
+	color:white;
+	padding-right: 50px;
+
+}
+
+#backPhotoContent h3
+{
+	font-family: 'Yatra One', cursive;
+	text-align:right;
+	font-size: 23px;
+	color:white;
+	padding-right: 50px;
+}
+
+.questions h3
+{
+
+	font-family: 'Yatra One', cursive;
+	text-align:left;
+}
+
+.questions p{
+	/*font-family: 'Poiret One', cursive;*/
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+.questions img{
+	vertical-align:middle;
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+	width:70%;
+	height:100%;
+}
+
+#refImage{
+	text-align:center;
+}
+
+#imageDescription {
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	font-size: 20px;
+
+}
+
+#questions2
+{
+	position: relative;
+	top:36em;
+	background:rgba(0,0,1,.2);
+}
+
+
+#question3
+{
+	position: relative;
+	top:36em;
+}
+
+
+.reference {
+	position: relative;
+	top:36em;
+	background:rgba(0,0,1,.4);
+    padding-bottom: 20px;
+}
+
+
+.reference h2
+{
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+
+}
+
+.reference p{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.reference li{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 12px;
+}
+
+/*---------- Background END --------*/
+
+
+
+
+/* --------- METHODS --------- */
+
+.protocol p{
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+
+}
+
+.protocol h3
+{
+		font-family: 'Yatra One', cursive;
+		text-align:center;
+}
+
+#subHead
+{
+	font-family: 'Yatra One', cursive;
+	text-align:left;
+}
+
+#protocolHead
+{
+	font-family: 'Yatra One', cursive;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { protocol1: ''; protocol1: none; }
+
+
+.bigtext {
+  display: block;
+  overflow: hidden;
+  
+}
+
+.expand, .contract {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  color: #555;
+}
+.expand:hover, .contract:hover {
+  color: #121212;
+}
+
+.hide {
+  display: none;
+}
+
+
+/* --------- METHODS END --------- */
+
+
+/*-------- IDEA BEGIN ---------*/
+
+
+
+.reference1 h2
+{
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+
+}
+
+.reference1 p{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.reference1 li{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 12px;
+}
+
+
+
+#ideaWriteup p{
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+
+#ideaWriteup h3
+{
+		font-family: 'Yatra One', cursive;
+		text-align:center;
+}
+
+
+
+/*--------IDEA END ---------*/
+
+
+/*------ APPROACH -----------*/
+
+
+#sub
+{
+	font-family: 'Yatra One', cursive;
+	text-align:left;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+
+#approach p
+{
+    font-family: 'Lato', sans-serif,cursive;
+	text-align: justify; 
+    font-size: 18px;
+	line-height: 25px;
+}
+
+#approach h4
+{
+     font-family: 'Yatra One', cursive;
+    font-size: 18px;
+	line-height: 25px;
+    color:#33383b;
+}
+
+/*-------- APPROACH END ------*/
+
+
+
+
+
+/*= FOOTER
+--------------------------------------------------------*/
+
+footer
+{
+    background-color: #33383b;
+    padding-top: 5px;
+    width:auto;
+    height:67px;
+    padding-bottom: 5px;
+}
+
+#headerFooter
+{
+    
+    position:relative;
+    top:48em;
+}
+
+
+
+.footerSection h5
+{
+	font-family: 'Yatra One', cursive;
+    color:darkgrey;
+    text-decoration: none;
+    vertical-align: center;
+    text-align: center;
+}
+
+.footerSection a
+{
+   color:darkgrey;
+    padding-top: none;
+    text-align: center;
+}
+
+
+#ackFooter
+{
+    position:relative;
+    top:30em;
+}
+
+#elseFooter
+{
+    position:relative;
+    top:35em;
+}
+
+
+#teamFooter
+{
+    position:relative;
+    top:50em;
+}
+
+/*------------ FOOTER END ------------------*/
+
+
+/*----- Nav Tabs -----*/
+
+.nav-tabs a
+{
+    font-family: 'Yatra One', cursive;
+    color:#33383b;
+    
+}
+
+.nav-tabs a:active
+{
+    font-family: 'Yatra One', cursive;
+    color:#33338b;
+    
+}
+
+/*----- Nav Tabs------*/
+
+
+
+/*------- ABSTRACT -----*/
+
+
+#abstractContent
+{
+    padding-bottom: 25px;
+}
+
+
+    #abstractContent p
+{
+    font-family: 'Lato', sans-serif,cursive;
+	text-align: justify; 
+    font-size: 18px;
+	line-height: 25px;
+    
+}
+
+
+#reference1 h2
+{
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	color:#33383b;
+
+}
+
+#reference1 p{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+#reference1 li{
+
+	font-family: 'Lato', sans-serif,cursive;
+	text-align: justify;
+	font-style: normal;
+	font-size: 12px;
+}
+
+
+/*------ Abstract END------*/
+
+
+
+/*------ RESULTS -----*/
+
+
+#resultImage 
+{
+    padding-bottom: 10px;
+     text-align: center;
+    padding-top: 10px
+
+}
+
+#resultImage img
+{
+   
+    vertical-align:middle;
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+    
+    max-width:600px;
+    max-height:400px;
+    
+}
+
+#result P
+{
+    font-family: 'Lato', sans-serif,cursive;
+	text-align: justify; 
+    font-size: 18px;
+	line-height: 25px;
+}
+
+#resimgName
+{
+    text-align: center;
+     font-family: 'Yatra One', cursive;
+    color:gray;
+}
+
+#result h4
+{
+    font-family: 'Yatra One', cursive;
+    font-size: 20px;
+	line-height: 25px;
+    color:#33383b;
+}
+
+
+#resultVideo
+{
+    padding-bottom: 10px;
+     text-align: center;
+    padding-top: 10px
+
+}
+
+#resultVideo video
+{
+    vertical-align:middle;
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+    max-width:60%;
+    max-height:40%;
+}
+
+
+#resultVideo1
+{
+    padding-bottom: 10px;
+     text-align: center;
+    padding-top: 10px
+
+}
+
+#resultVideo1 video
+{
+    vertical-align:middle;
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
+/*------- RESULTS END -----*/
+
+
+/*
+button
+{
+    background-color
+    
+}
+*/
+
+.button a{
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	background-color:  none;
+	border-radius: 5px;
+    
+
+	font-size: 20px;
+	color: white;
+	text-align:center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 15px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+    position:absolute;
+    top:25em;
+    left:27em;
+    z-index: 3000;
+    
+    
+    box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity: 1;
+	opacity: 1;
+}
+
+.button h2
+{
+    font-family: 'Yatra One', cursive;
+    vertical-align: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button a:hover
+{
+	color: white;
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-o-transform:scale(1.2);
+    text-decoration: none;
+}

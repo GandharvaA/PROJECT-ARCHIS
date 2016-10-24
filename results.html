@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Team ARCHIS-Results</title>
+       <link rel="stylesheet" href="css/style.css"/>
+       <link href="css/ihover.css" rel="stylesheet">
+       <link rel="stylesheet" href="css/normalize.css">
+       <link rel="stylesheet" href="css/modalstyle.css">
+     <script src="js/bootstrap.min.js"></script>
+	   <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+     <script type="text/javascript" src="js/noframework.waypoints.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/default.css" />
+ 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+ 		<script src="js/modernizr.custom.js"></script>
+       <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet" type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Oswald|Poiret+One|Roboto|Yatra+One" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+	   <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script>
+
+<!----- JQUERY FOR SLIDING NAVIGATION --->
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+$(document).ready(function(){
+		$(window).scroll(function(){
+
+
+		});
+
+
+});
+
+
+</script>
+
+
+ </head>
+
+<body>
+
+  <!----- HEADER START--->
+  <header id="header">
+  <div class="container">
+  <div class="content">
+
+
+  <div class="col-md-3">
+   <a href="index.html"><img id="logo" src="img/Archis_logo.png"/> </a>
+  </div>
+
+  <div class="col-md-9">
+  <nav id="nav">
+
+   <ul>
+     <li><a href="index.html" title="Next Section">Home</a></li>
+      <li><a href="abstract.html" title="Next Section">Abstract</a></li> 
+     <li><a href="background.html" title="Next Section" >Intro</a></li>
+     <li><a href="project.html" title="Next Section">Project</a></li>
+     <li><a href="method.html" title="Next Section">Methods</a></li>
+    <li><a  href="teams.html" title="Next Section">Team</a></li>
+     <li><a href="credits.html" title="Next Section">Credits</a></li>
+   </ul>
+
+  </nav>
+  </div>
+  </div>
+  </div>
+  </header>
+  <!----- HEADER END--->
+
+    <div id="backPic">
+
+
+    <div id="backPhoto">
+            <img src="img/resultsbg.png" alt="Background" />
+      </div>
+
+       <div id="backPhotoContent">
+         <h2>RESULTS</h2>
+        
+
+    </div>
+
+    </div>
+
+    
+    <div  class="container" id="backStart">
+      <h3 id="headings" style="text-align:center1"> <strong>RESULTS</strong></h3> 
+        
+            
+        <div class="col-md-1">
+        
+        </div>
+        
+        
+        
+        <div class="col-md-10" id="result">
+        
+                <h3 id="sub">Design of Circuit</h3>
+            
+            <p>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each of the two electrodes are connected between pins 2 & 3 of each of the 2 IC LF411. The output is serially transmitted from the pic microcontroller through the zigbee module and received on the computer.
+            </p>   
+              
+            <div id="resultImage">
+            <img src="img/results/circuitdiagram.png" alt="CIRCUIT DIAGRAM"/>
+          </div>
+         <h4 id="resimgName">Circuit Diagram</h4>
+            
+            <p>  
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The electrodes dipped in solutions mimicking the Intracellular Fluid and Extracellular Fluid solutions measured the potential difference between the two. These values were transmitted via the Zigbee module to a computer. Values between 50-60mV were displayed as normal (‘N’) and values deviating from this range were displayed as abnormal (‘A’).
+            </p>
+            
+            
+            
+            <div id="resultImage">
+            <img src="img/results/circuit.jpg" alt="SEM RESULT"/>
+          </div>
+            <h4 id="resimgName">Circuit</h4>
+            
+            
+            <div id="resultImage">
+            <img src="img/results/circuitmain.png" alt="SEM RESULT"/>
+          </div>
+            <h4 id="resimgName">Circuit in Function</h4>
+            
+            
+            <div id="resultImage">
+            <img src="img/results/circuitprtscr.png" alt="SEM RESULT"/>
+          </div>
+            <h4 id="resimgName">Obtained Result Screen</h4>
+            
+            
+            
+            
+            <h3 id="sub"> Assembly of DNA origami structure</h3>
+            
+            <p>   
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DNA origami was synthesized and its characteristics studied using scanning electron microscopy, transmission electron microscopy and gel electrophoresis.
+            </p>
+            
+            
+                    
+            
+            <div id="resultImage">
+            <img src="img/results/semdna.png" alt="SEM RESULT"/>
+          </div>
+            
+            <h4 id="resimgName">SEM Result</h4>
+            
+            
+            <div id="resultImage">
+            <img src="img/results/temdna.png" alt="SEM RESULT"/>
+          </div>
+            <h4 id="resimgName">TEM Result</h4>
+            
+            
+            
+            <div id="resultImage">
+            <img src="img/results/dna_gel.png" alt="SEM RESULT"/>
+          </div>
+            <h4 id="resimgName">GEL Result</h4>
+            
+            <h3 id="sub">Synthesis of SPIONS </h3>
+            
+            <ol start="1" value="1">
+                
+                <li>
+                    <h4 id="sub">SEM Analysis:</h4>
+                    
+                    <p>
+                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The synthesized SPIONs were seen under the scanning electron microscope. SPIONs with size ranging from 10-20 nm were observed as a cloudy dust. The Energy Dispersive Spectroscopy (EDS) peaks showed the exact iron percentage in Fe<sub>3</sub>O<sub>4</sub>. 
+                    </p>
+                    
+                    
+                    <div id="resultImage">
+            <img src="img/results/semspion.png" alt="SEM RESULT"/>
+          </div>
+                    <div id="resultImage">
+            <img src="img/results/spioneds.png" alt="SEM RESULT"/>
+          </div>
+                    
+                
+                </li>
+                
+                <li>
+                    
+                    <h4 id="sub">FTIR Analysis:</h4>
+                    <p>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The FTIR spectrum of the synthesized SPIONs showed bands at 574cm-1. This is the standard characteristic of magnetite.
+                    
+                    </p>
+                
+                    <div id="resultImage">
+            <img src="img/results/spion.png" alt="SEM RESULT"/>
+          </div>
+                
+                </li>
+     
+            </ol>
+            
+            
+            <h3 id="sub"> Coatings of SPIONS with PEI</h3>
+            
+            <ol start="1" value="1">
+            
+                
+                <li>
+                    <h4 id="sub">SEM Analysis:</h4>
+                    
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Energy Dispersive Spectroscopy of PEI coated SPIONS showed peaks for Carbon and Nitrogen along with that for Iron indicating the coating was successful.
+                       
+                    </p>
+                    
+                     <div id="resultImage">
+            <img src="img/results/edspeicoat.png" alt="SEM RESULT"/>
+          </div>
+                
+                
+                </li>
+                
+                <li>
+                    <h4 id="sub">FTIR Analysis:</h4>
+                    
+                    <P>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The FTIR spectrum of the SPIONs coated with PEI showed a vibrational peak at 2922cm<SUP>-1</SUP> and 1454cm<SUP>-1</SUP> which represents C-H stretch and bend present in PEI.
+                    </P>
+                    
+                             <div id="resultImage">
+            <img src="img/results/pei.png" alt="SEM RESULT"/>
+          </div>
+                
+                </li>
+            
+            </ol>
+            
+            
+            <h3 id="sub">Attachment of DNA</h3>
+            
+            
+            <h4 id="sub">GEL Shifted Assay:</h4>
+                    
+                    <P>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The gel was run with the control lambda DNA in lane 2 and the sample of SPIONs bound to DNA in lane 3. The shift was examined under UV illuminator. It was observed that the control DNA travelled further than the sample seen as a faint band near the well.
+                    </P>
+            
+            <div id="resultImage">
+            <img src="img/results/gelphoto.png" alt="SEM RESULT"/>
+          </div>
+            
+            
+            <h4 id="sub">MRI Result</h4>
+            
+            
+            <P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The PEI-coated-SPIONs are seen in the MRI as contrast, ghost-like images.
+            </P>
+        <ol start="1" value="1">
+          
+            <li>
+            <p>
+                T1W – T1 Weighted Image: A basic pulse sequence image that demonstrates the difference in T1 relaxation times of tissues.
+                </p>
+              </li>  
+              
+            <li>
+                
+                <p>
+                T2W – T2 Weighted Image: A basic pulse sequence image that demonstrates the difference in T2 relaxation times of tissues.
+                    </p>
+                </li>
+
+            <li>
+                <p>
+                    PDW – Proton Density Weighted Image: The tissues with higher concentration of protons (hydrogen atoms) appear the brightest in this form of MRI scanning. Proton density weighted sequence produces contrast mainly by minimizing the impact of T1 and T2 differences with long TR (2000-5000ms) and short TE (10-20).
+                    </p>
+            
+            </li>
+            
+            <li>
+                <p>
+                    BLISS IMAGE - BLISS is BiLateral Imaging in the Sagittal plane using SENSE. The BLISS sequence contains two sagittal stacks that can be planned and angulated separately. It is conducted for breast tissue.
+                    
+                    </p>
+                </li>
+            
+            
+            
+            </ol>    
+            
+            <div id="resultImage">
+            <img src="img/results/mri.png" alt="SEM RESULT"/>
+          </div>
+            
+            
+            <h3 id="sub">Simulation</h3>
+            
+            
+           <ul>
+               
+               <li>
+                <p>
+                    <strong>Formation of chitosan layer on PCB:</strong> Chitosan molecules tend to self-assemble onto a surface. Considering the thermal fluctuations and the energy released during the covalent bonding, it was observed that these molecules accumulate and form a uniform layer on the PCB.
+               
+               </p>
+                   <div id="resultVideo">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/1.chitosancoating.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                   
+                </li>
+               
+               <li>
+                <p>
+                    <strong>Binding of SPIONs:</strong> The negatively charged origami linked to the SPIONs tend to compete to bind with the positively charged chitosan. However, repulsive forces are experienced by the SPIONs amongst one another due to a like negative charge. These repulsive forces combined with the limited surface area available for binding (due to comparable sizes of SPIONs and the chitosan-coated PCB).
+               
+               </p>
+                   
+                   <div id="resultVideo">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/2.bindingofspions.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                   
+                </li>
+               
+               <li>
+                <p>
+                    <strong>Behaviour of nanobot in blood:</strong> The nanobot is seen to move like any other particle that is being propagated along a streamlined fluid flow. However, net forces acting on the nanobot varies due to the external magnetic field used to monitor the nanobot’s movement in blood. This is seen to give rise to an observable torque about the nanobot’s axis.
+               
+               </p>
+                   
+                   <div id="resultVideo">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/3.nanobotinblood.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                   
+                   
+                </li>
+               
+               
+               <li>
+                <p>
+                    <strong>Behaviour of nanobot in interstitial fluid:</strong> a similar observation of the nanobot’s movements is made in the interstitial fluid, but the net forces acting on it is not as uniform as that experienced while travelling in blood. The most prominent force was hence considered - which is the net inward flux, arising due to the water potential, along with a minute factor of the resultant of random forces. The direction of these forces was randomised and the magnitude was fixed to facilitate easier conversions.
+               
+               </p>
+                   
+                   <div class="row">
+                       
+                       <div class="col-md-6">
+                       
+                            <div id="resultVideo1">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/4.celltissue.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                       
+                       </div>
+                       
+                       
+                       <div class="col-md-6">
+                       
+                       <div id="resultVideo1">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/5.celltissue.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                       
+                       </div>
+                   
+                   
+                   
+                   </div>
+                   
+                </li>
+               
+               <li>
+                <p>
+                    <strong>Piercing of cell membrane:</strong> the attractive forces between the phospholipid molecules consist of weak hydrophilic and hydrophobic interactions, maintaining its shape and rigidity. It was thus concluded that a piercing angle of 90 degrees to the plane of the membrane would be most efficient. 
+               
+               </p>
+                   
+                   
+                   
+                    <div id="resultVideo">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/penetration.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                   
+                   
+                   <div class="row">
+                       
+                       <div class="col-md-6">
+                       
+                            <div id="resultVideo1">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/outsidesideview.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                       
+                       </div>
+                       
+                       
+                       <div class="col-md-6">
+                       
+                       <div id="resultVideo1">
+                   <video  preload="auto" autoplay="autoplay" loop="loop" muted="muted" >
+   	<source src="video/simulation/6.mp4" type="video/mp4" />
+   	</video>
+                   </div>
+                       
+                       </div>
+                   
+                   
+                   
+                   </div>
+                
+                   
+                </li>
+            
+            </ul>
+            
+            
+            
+        
+        </div>
+        
+        
+        
+        <div class="col-md-1">
+        
+        
+        </div>
+        
+        
+        
+    </div>
+    
+    
+    
+       
+              
+<!--  FOOTER BEGIN -->
+
+  <footer id="elseFooter" class="footerSection">
+      
+      <div class="container">
+          
+         
+                   
+                  <span align="center"><p> </p><h5>Copyright <i class="fa fa-copyright"></i> 2016 ARCHIS. All rights reserved.</h5> </span>
+                    <h5 style="text-align:center">Email: bmsce.biomod2016@gmail.com</h5>
+             
+            
+      
+      
+      </div>
+
+
+  </footer>
+
+<!--  FOOTER END -->
+
+
+</body>
+
+
+
+</html>
+    
+
+    
